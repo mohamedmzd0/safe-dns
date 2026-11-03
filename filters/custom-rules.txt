@@ -1,0 +1,10 @@
+! Block DNS-over-HTTPS providers so browsers can't bypass the filter
+||dns.google^
+||cloudflare-dns.com^
+||mozilla.cloudflare-dns.com^
+||dns.quad9.net^
+||doh.opendns.com^
+||dns.nextdns.io^
+! Add your own rules below
+! Block:  ||example.com^
+! Allow:  @@||example.com^

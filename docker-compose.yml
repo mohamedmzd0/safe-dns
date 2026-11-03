@@ -1,0 +1,18 @@
+# AdGuard Home - DNS filter for ads, trackers, malware, phishing, adult content
+# Run:  docker compose up -d
+# Then open http://<server-ip>:3000 for first-time setup
+
+services:
+  adguardhome:
+    image: adguard/adguardhome:latest
+    container_name: adguardhome
+    restart: unless-stopped
+    ports:
+      - "53:53/tcp"       # DNS
+      - "53:53/udp"       # DNS
+      - "3000:3000/tcp"   # first-time setup wizard
+      - "8080:80/tcp"     # admin dashboard after setup
+      - "853:853/tcp"     # DNS-over-TLS (Android "Private DNS") - needs a domain + cert
+    volumes:
+      - ./work:/opt/adguardhome/work
+      - ./conf:/opt/adguardhome/conf

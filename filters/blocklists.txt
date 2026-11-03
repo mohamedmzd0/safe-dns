@@ -1,0 +1,6 @@
+# name|url
+OISD Big (ads, trackers, malware)|https://big.oisd.nl
+OISD NSFW (adult content)|https://nsfw.oisd.nl
+HaGeZi Pro (ads, tracking, telemetry)|https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt
+HaGeZi Threat Intelligence (phishing, malware, scam)|https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
+HaGeZi Gambling|https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt
