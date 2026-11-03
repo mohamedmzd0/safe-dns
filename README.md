@@ -15,7 +15,7 @@ A self-hosted DNS filter that blocks **ads, trackers, malware, phishing, gamblin
 
 ## Quick start
 ```bash
-git clone https://github.com/<your-username>/safe-dns.git
+git clone https://github.com/mohamedmzd0/safe-dns.git
 cd safe-dns
 chmod +x scripts/*.sh
 ./scripts/install.sh
